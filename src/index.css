@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#btn-login{
+  margin-top:30%;
+ /* margin-bottom: 50%;*/
+}
+#info{
+  margin-top: 10%;
+}
+#icono{
+  max-width: 48px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.App{
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top: 5px;
+}
+.App-header{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
