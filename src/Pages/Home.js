@@ -50,45 +50,45 @@ export default class Home extends Component {
       //  let contenidoModal = this.dibujarModal();
         return (
             <section id="info">
-              <div class="container">
-                    <div class="row">
-                        <div class="col-sm-2 col-md-2">
+              <div className="container">
+                    <div className="row">
+                        <div className="col-sm-2 col-md-2">
                         </div>
 
-                        <div class="col-sm-8 col-md-8">
+                        <div className="col-sm-8 col-md-8">
                             <div className="container">
                               <FontAwesomeIcon className="fa-icon" icon={faDoorClosed} onClick={(e) => this.cerrarSesion()} /> Cerrar Sesión
                             </div>
                            
-                            <div class="card mb-3" >
-                                <div class="row g-0">
-                                    <div class="col-md-4">
+                            <div className="card mb-3" >
+                                <div className="row g-0">
+                                    <div className="col-md-4">
                                         <img id="avatar" src={avatar} className="img-fluid" alt="..." />
                                     </div>
                                     {this.state.usuario !== null ?
-                                    <div class="col-md-8">
+                                    <div className="col-md-8">
 
-                                        <div class="card-body">
-                                            <h5 class="card-title">Datos Personales <FontAwesomeIcon className="fa-icon" icon={faUserCircle} />  </h5>
-                                            <p class="card-text">Nombres y Apellidos Completos   <br/>
+                                        <div className="card-body">
+                                            <h5 className="card-title">Datos Personales <FontAwesomeIcon className="fa-icon" icon={faUserCircle} />  </h5>
+                                            <p className="card-text">Nombres y Apellidos Completos   <br/>
                                               {this.state.usuario.nombres} , {this.state.usuario.apellidos}
                                             </p>
-                                            <p class="card-text">
-                                                <small class="text-muted">Correo <FontAwesomeIcon className="fa-icon" icon={faEnvelope} /> : {this.state.usuario.username} </small> <br/>
-                                                <small class="text-muted">Teléfono <FontAwesomeIcon className="fa-icon" icon={faPhoneAlt} /> :   {this.state.usuario.telefono} </small> <br/>
-                                                <small class="text-muted">Direcciòn <FontAwesomeIcon className="fa-icon" icon={faMapMarker} /> : {this.state.usuario.direccion} </small>
+                                            <p className="card-text">
+                                                <small className="text-muted">Correo <FontAwesomeIcon className="fa-icon" icon={faEnvelope} /> : {this.state.usuario.username} </small> <br/>
+                                                <small className="text-muted">Teléfono <FontAwesomeIcon className="fa-icon" icon={faPhoneAlt} /> :   {this.state.usuario.telefono} </small> <br/>
+                                                <small className="text-muted">Direcciòn <FontAwesomeIcon className="fa-icon" icon={faMapMarker} /> : {this.state.usuario.direccion} </small>
 
                                             </p>
                                         </div>
                                     </div>
                                       :
-                                      <div class="col-md-8">
+                                      <div className="col-md-8">
                                       </div>
                                     }
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-2 col-md-2">
+                        <div className="col-sm-2 col-md-2">
                         </div>
                     </div>
                 </div>

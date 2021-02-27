@@ -18,7 +18,6 @@ ReactDOM.render(
         <Route exact path="/" component={Login}/>
         <Route exact path="/home" component={Home}/>
       </Switch>
-
     </HashRouter  >
     </React.StrictMode>,
   document.getElementById('root')

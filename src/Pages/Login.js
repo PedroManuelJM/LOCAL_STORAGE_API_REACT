@@ -24,10 +24,6 @@ export default class Login extends Component {
           this.props.history.push('/home')
     
         }
-
-      
-
-        //if(usuarioLocal() !== null) this.props.history.push('/')
       }
 
     mostrarModal() {
@@ -50,7 +46,7 @@ export default class Login extends Component {
                         <form>
                             <div className="modal-body">
                                 <div className="container text-center">
-                                    <div class="input-group">
+                                    <div className="input-group">
                                         <div className="input-group-prepend">
                                             <div className="input-group-text" id="btnGroupAddon"> <FontAwesomeIcon className="fa-icon" icon={faUser} /> </div>
                                         </div>
